@@ -195,7 +195,8 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
+    
 }
 
 .d-bloc .panel button:hover,
@@ -645,13 +646,12 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -724,6 +724,8 @@ h3 {
 
 h1 {
     color: #333333!important;
+    text-shadow: 1px 1px 1px white;
+    font-weight: 600;
 }
 
 h4 {
@@ -735,10 +737,16 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
 
+.tc-white{
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+}
+.white{
+    color: black;
+    font-size: medium;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -774,13 +782,11 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,7 +830,16 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+.col-sm-12 img{
+    width: 100px;
+}
+.keywords p{
+    color:black;
+    font-size:7px;
+}
+h5 {
+    color: black;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1026,9 +1041,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
-.col-sm-12 img{
-    width: 100px;
 }
 
 @media (max-width: 400px) {
